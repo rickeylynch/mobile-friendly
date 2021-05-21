@@ -5,5 +5,18 @@ header{
     background-size: cover;
     color: white;
     text-align: center;
+}
 
+@media screen and (min-width:480px) {
+    header {
+        background-color: yellow ;
+        color: black;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    header {
+        background-color: lavender ;
+        color: magenta;
+    }
 }
